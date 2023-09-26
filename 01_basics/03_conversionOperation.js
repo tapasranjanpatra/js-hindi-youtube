@@ -18,5 +18,34 @@ console.log( booleanIsLoggedIn)
 //"hitesh"=>true
 let someNumber=33
 let stringNumber=String(someNumber)
-console.log(stringNumber)
-console.log(typeof stringNumber);
+// console.log(stringNumber)
+// console.log(typeof stringNumber);
+// *****************Operations************************//
+
+let values=3
+let negValues=-values
+// console.log(negValues)
+let str1="hello"
+let str2="hitesh"
+let str3=str1 + str2
+// console.log(str3);
+// important concept in js************
+console.log("1"+2)
+console.log(1+"2")
+console.log("1"+"2")
+console.log("1"+2+2)
+console.log(1+2+"2")
+// console.log(true);
+// let num1,num2,num3
+// num1=num2=num3=2+2
+// console.log(num2);
+let gameCounter=100
+gameCounter++
+console.log(gameCounter);
+// learn increment and decrement in javascript
+// a++;=> first value then increament
+// ++a=>first increment
+// a--;=>first value then decrement
+// --a=>first decrement
+
+
