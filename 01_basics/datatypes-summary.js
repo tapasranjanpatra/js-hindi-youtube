@@ -8,7 +8,7 @@ let userEmail;
 // ******
 const id=Symbol('123');
 const anotherId=Symbol('123')
-console.log(id==anotherId)//=>false bcz symbol can not be same even it same value
+// console.log(id==anotherId)//=>false bcz symbol can not be same even it same value
 //
 const bigNumber=353556555554n//=>Bigint
 //************** *//
@@ -21,6 +21,25 @@ let myObj={
     age:22
 }
 let myFunction=function(){
-console.log("hello")
+// console.log("hello")
 }
-console.log(typeof myFunction )
+// console.log(typeof myFunction )
+
+
+// ****************************************
+// Stack and Heap Memory
+//Satck(primitive),Heap(Nonprimitive)
+let myYoutubename="hitesh.com" 
+let anothername=myYoutubename
+anothername="riya"
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne={
+    email:"user@google.com",
+    upi:"user@ybl"
+}
+let userTwo=userOne
+userTwo.email="tapasranjanpatra98"
+console.log(userOne.email);
+console.log(userTwo.email);
