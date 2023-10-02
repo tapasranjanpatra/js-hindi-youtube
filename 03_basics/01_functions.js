@@ -7,29 +7,31 @@ function saymyname(){
     console.log("S");
 }
 // saymyname()
+
 //********* */
 // function addtwonumber(number1,number2){//parametre
-//       console.log(number1+number2);
-// }
-// const result=addtwonumber(3,5)//argument
+//     console.log(number1+number2);
+//  }
+//  const result=addtwonumber(3,5)//argument
 // console.log("result:",result);
+// ************
 function addtwonumber(number1,number2){
-//    let result=number1+number2
-//    return result
-//    console.log("hitesh")//this is not execute bcz ret.done
+//  let result=number1+number2
+//  return result
+ console.log("hitesh")//this is not execute bcz ret.done
 
 return number1+number2
 }
-const result=addtwonumber(3,5)
+//  const result=addtwonumber(3,5)
 //  console.log("result:",result);
-    // *************
-    function loginusermessage(username){
+// *************
+    function loginusermessage(username="sam"){
+        if(username===undefined){
+            console.log("please enter user name first")
+            return
+
+        }
         return `${username} just logged in`
     }
-console.log(loginusermessage("hitesh")
-);
-function username(){
-    console.log("hitesh bimal")
-}
-const username1=username()
-console.log("final result:",username1);
+//  console.log(loginusermessage("hitesh"));
+console.log(loginusermessage("hitesh"));
