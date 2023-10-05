@@ -19,4 +19,4 @@ let isLoggin=true;
 
 
 console.log(typeof null) //object
-console.log(typeof undefine)  //undefine
+console.log(typeof undefine)  //undefined
